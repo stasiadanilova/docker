@@ -19,5 +19,6 @@ public class IndexModel : PageModel
         {
             var s =_context.Students?.Where(d=>d.ID==1).FirstOrDefault();
             this.StudentName = $"{s?.FirstMidName} {s?.LastName}";
-        }
+        //this.StudentName = "no name";
+    }
     }

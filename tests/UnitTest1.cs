@@ -20,9 +20,9 @@ namespace myWebApp.Tests
                 ID = id,
                 LastName = lastName,
                 FirstMidName = firstMidName,
-                EnrollmentDate = enrollmentDate
+                EnrollmentDate = enrollmentDate                
             };
-
+            
             // Assert
             Assert.Equal(id, student.ID);
             Assert.Equal(lastName, student.LastName);
